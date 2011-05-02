@@ -32,5 +32,17 @@ This expansion is only one level deep, it does not expands chained shorturls.
 	    console.log(result.longurl);
 	  });
 
+## How-to
+
+Use the function longurl( shorturl-to-expand, callbackfunction)
+
+The result will be in JSON with two properties:
+
+* shorturl - The original shorturl sent 
+* longurl - The expanded url
 
 
+	{shorturl:"shorturl",longurl:"theExpandedURL"}
+
+
+If error on request the longurl property will be the string "error"
