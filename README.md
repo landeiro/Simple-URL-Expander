@@ -4,6 +4,8 @@ This is an extra small node.js lib that expands virtually all existing shorturl 
 
 This expansion is only one level deep, it does not expands chained shorturls.
 
+SUE is a working example of this script, can see here:  http://landeiro.github.com/expander
+
 ## Examples
 
 	var expand = require("./lib/expander.js");
